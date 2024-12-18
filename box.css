@@ -1,0 +1,57 @@
+.parentbox{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+   
+   
+}
+.childbox1{
+   
+    height: 50px;
+    width: 50px;
+    background-color: palevioletred;
+    position: relative;
+   
+}
+.childbox2{
+   
+    height: 50px;
+    width: 50px;
+    background-color: palevioletred;
+    position: relative;
+    bottom: 50px;
+    left:150px;
+
+}
+.childbox3{
+   
+    height: 50px;
+    width: 50px;
+    background-color: palevioletred;
+    position: relative;
+    top: 50px;
+    left:150px;
+}
+.childbox4{
+   
+    height: 50px;
+    width: 50px;
+    background-color: palevioletred;
+   
+}
+.box3{
+    height : 90px;
+    width: 90px;
+    background-color: brown;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+.box4{
+    height : 100px;
+    width: 90px;
+    background-color: rgb(42, 165, 155);
+    position: absolute;
+    right: 9px;
+    position: fixed;
+}
